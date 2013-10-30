@@ -1,5 +1,5 @@
-Directive
-=========
+Directives
+==========
 
 What are directives...
 ----------------------
