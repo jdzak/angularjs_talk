@@ -18,7 +18,8 @@ app.directive('favoriteColor', function() {
     replace: true,
     template: '<div style="background-color:{{color.value}}">{{color.name}} <button ng-click="remove()">remove</button></div>',
     scope: {
-      color:'=color'
+      color:'=color',
+      remove:'&'
     }
   }
 });

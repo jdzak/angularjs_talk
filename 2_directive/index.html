@@ -8,7 +8,7 @@
     Search: <input ng-model="searchText.name">
 
     <div ng-repeat="color in colors | filter:searchText">
-      <favorite-color color="color"/>
+      <favorite-color color="color" remove="remove()"/>
     </div>
   </body>
 </html>

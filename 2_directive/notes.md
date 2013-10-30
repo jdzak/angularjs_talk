@@ -27,3 +27,5 @@ Example
   * creates internal scope to prevent poluting parent scope
 6. `color:'=color'`
   * attribute color will be passed and bound from parent scope
+7. `remove:'&'`
+  * attribute remove will be passed from parent scope to be called later
