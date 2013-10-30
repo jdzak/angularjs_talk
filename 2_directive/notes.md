@@ -10,7 +10,7 @@ What are directives...
 > components, configure your application, and do almost 
 > anything else you can imag‐ine wanting to do in your UI 
 > template.
-> -- <cite> Brad Green, Angularjs (S.l.: O'Reilly Media, 2013), 43.
+> -- <cite> Brad Green, Angularjs (S.l.: O'Reilly Media, 2013), 43.</cite>
 
 Example
 -------
