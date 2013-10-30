@@ -14,16 +14,16 @@ What are directives...
 
 Example
 -------
-1. <favorite-color color="color"/>
+1. `<favorite-color color="color"/>`
   * Custom directive with semantic relavance
-2. restrict: 'E'
+2. `restrict: 'E'`
   * Elements only
-3. replace: true
+3. `replace: true`
   * Removes directive from and DOM and replaces with template
-4. template:'...'
+4. `template:'...'`
   * Some html
   * Alternative is to use templateUrl
-5. scope
+5. `scope:{}`
   * creates internal scope to prevent poluting parent scope
-6. color:'=color'
+6. `color:'=color'`
   * attribute color will be passed and bound from parent scope

@@ -20,18 +20,18 @@ What is Angular.js...
 
 Example
 -------
-1. ng-app="colorsApp"
+1. `ng-app="colorsApp"`
   * Tells angular where it should manage page
-2. ng-controller="MisterController"
+2. `ng-controller="MisterController"`
   * Controllers manage parts of the page
   * Dependency injection through $scope
-3. ng-model="searchText"
+3. `ng-model="searchText"`
   * Bind input to $scope.searchText
-4. ng-repeat="color in colors"
+4. `ng-repeat="color in colors"`
   * Copy DOM inside div once for every element in colors
-5. filter:searchText
+5. `filter:searchText`
   * Filter colors by searchText
-6. {{color.value}} and {{color.name}}
+6. `{{color.value}} and {{color.name}}`
   * Evaluate expression by copying value into DOM
-7. ng-click="remove()"
+7. `ng-click="remove()"`
   * Directive to call remove() on click
