@@ -10,3 +10,4 @@ References
 
 Useful
   * http://plnkr.co
+  * Batarang (Chrome Extension)
