@@ -1,0 +1,14 @@
+<html ng-app="colorsApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MisterController">
+    Search: <input ng-model="searchText.name">
+
+    <div ng-repeat="color in colors | filter:searchText">
+      <favorite-color color="color"/>
+    </div>
+  </body>
+</html>
