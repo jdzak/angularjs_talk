@@ -1,18 +1,17 @@
-<html ng-app="colors">
-  <head>
+<html ng-app="colorsApp">
+<head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
     <script src="app.js"></script>
   </head>
 
   <body ng-controller="MisterController">
-    <div ng-repeat="color in colors">
+    Search: <input ng-model="searchText.name">
+    
+    <div ng-repeat="color in colors | filter:searchText">
       <div style="background-color:{{color.value}}">
         {{color.name}}
         <button ng-click="remove()">remove</button>
       </div>
     </div>
-    <input ng-model="newColor.name" placeholder="name" />
-    <input ng-model="newColor.value" placeholder="value"/>
-    <button ng-click="add()">Add</button>
   </body>
 </html>

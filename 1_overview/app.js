@@ -1,4 +1,4 @@
-var app = angular.module('colors', []);
+var app = angular.module('colorsApp', []);
 
 app.controller('MisterController', function($scope) {
   $scope.colors = [
@@ -6,10 +6,6 @@ app.controller('MisterController', function($scope) {
     { name:"green", value:"#0f0" },
     { name:"blue",  value:"#00f" }
   ];
-
-  $scope.add = function() {
-    $scope.colors.push($scope.newColor);
-  },
 
   $scope.remove = function(index) {
     $scope.colors.splice(index, 1);
